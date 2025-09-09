@@ -421,3 +421,49 @@ h1, h2, h3 {
     right: -11vw;
   }
 }
+
+.test__block--5 {
+  .test__image--1 {
+    background-image: url("/img/image-5-1.svg");
+    width: 5.5vw;
+    height: 5.5vw;
+    top: 2vw;
+    left: -3vw;
+  }
+  .test__image--2 {
+    background-image: url("/img/image-3-4.svg");
+    width: 5vw;
+    height: 5vw;
+    top: 0px;
+    right: -9vw;
+  }
+
+  .test__image--3 {
+    background-image: url("/img/image-5-3.svg");
+    width: 5vw;
+    height: 5vw;
+    top: 0px;
+    right: -9vw;
+  }
+  .test__image--4 {
+    background-image: url("/img/image-2-5.svg");
+    width: 5.5vw;
+    height: 5.5vw;
+    bottom: 0vw;
+    left: 8vw;
+  }
+  .test__image--5 {
+    background-image: url("/img/image-1-5.svg");
+    width: 3vw;
+    height: 3vw;
+    bottom: 2vw;
+    right: -5vw;
+  }
+  .test__image--6 {
+    background-image: url("/img/image-5-6.svg");
+    width: 4.4vw;
+    height: 4.4vw;
+    bottom: 14vw;
+    right: -11vw;
+  }
+}
