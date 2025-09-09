@@ -3,159 +3,282 @@
     @@include('html/head.html',{
     "title":""
     })
-<body class="index-page">
-    @@include('html/header.html',{})
-    <main>
-      <div class="top-block">
-        <div class="top-block__container main-width">
-            <div class="top-block__content">
-                <div class="top-block__label">
-                    Within 2 Hours
-                </div>
-                <h1 class="top-block__title">Premium IV Drips at Home</h1>
-                <p class="top-block__description">Personalized medical service delivered to your home or office in Dubai, Abu Dhabi and Tbilisi.</p>
-                <div class="top-block__buttons">
-                    <a href="" class="btn btn--primary">Book IV drip</a>
-                   <div class="top-block__time">
-                        <div>24/7 </div>
-                        availability
-                   </div>
-                </div>
-          </div>
-            <div class="top-block__review review">
-                <div class="top-block__review-text">
-                    Saved my day after a tough night. I felt brand new in just 30 minutes.
-                </div>
-                <div class="top-block__review-author">
-                    <div class="top-block__review-author-name">Omar K.</div>
-                    <div class="top-block__review-author-city">Downtown Dubai</div>
-                </div>
-                <div class="top-block__review-rating review__rating review__rating--5">
-                    <img src="@img/stars.webp">
-                </div>
-          </div>
-        </div>
-      </div>
-      <div class="infographics">
-        <div class="main-width">
-            <h2>Why Choose ELIXAR?</h2>
-            <div class="infographics__items">
-                <div class="infographics__item">
-                    <div class="infographics__icon">
-                        <img src="@img/icons/icon-1.svg" alt="">
+<body>
+    <div class="test">
+        <div class="test__wrapper">
+            <div class="test__blocks">
+                <div class="test__block test__block--1 test__block--active">
+                    <div class="test__counter">
+                        <img src="img/1-8.svg">
                     </div>
-                    <div class="infographics__title">Licensed Medical Nurses</div>
-
-                </div>
-                <div class="infographics__item">
-                    <div class="infographics__icon">
-                        <img src="@img/icons/icon-2.svg" alt="">
-                    </div>
-                    <div class="infographics__title">Fast Response — in 2 Hours</div>
-
-                </div>
-                <div class="infographics__item">
-                    <div class="infographics__icon">
-                        <img src="@img/icons/icon-3.svg" alt="">
-                    </div>
-                    <div class="infographics__title">At Home or Office — No Clinic Needed</div>
-
-                </div>
-                <div class="infographics__item">
-                    <div class="infographics__icon">
-                        <img src="@img/icons/icon-4.svg" alt="">
-                    </div>
-                    <div class="infographics__title">Doctor-Approved Drip Formulas</div>
-
-                </div>
-                <div class="infographics__item">
-                    <div class="infographics__icon">
-                        <img src="@img/icons/icon-5.svg" alt="">
-                    </div>
-                    <div class="infographics__title">Safe. Sterile. Comfort-Focused</div>
-
-                </div>
-            </div>
-       </div>
-       </div>
-       <div class="solutions" id="drips">
-            <div class="main-width">
-                <h2>IV Solutions</h2>
-                @@include('html/solutions.html',{})
-            </div>
-       </div>
-       <div class="reviews" id="testimonials">
-            <div class="main-width">
-                <h2>Customer Testimonials
-                    <span>Kyle transformed our home beyond our expectations!</span>
-                </h2>
-                 @@include('html/reviews.html',{})
-            </div>
-       </div>
-       <div class="instruction" id="howitworks">
-            <div class="main-width">
-                <h2>how it works</h2>
-                @@include('html/instruction.html',{})
-            </div>
-       </div>
-        <div class="main-form">
-            <div class="main-form__wrapper main-width">
-                <h2>Feel Unwell?<br>We’ll Be There in 2 Hours.
-                    <span>No waiting. No driving.<br>Just expert care — where you are.</span>
-                </h2>
-                @@include('html/main-form.html',{})
-            </div>
-        </div>
-        <div class="map">
-            <div class="main-width">
-                <h2>Where We Work
-                    <span>Available across key locations in the UAE and beyond.</span>
-                </h2>
-                @@include('html/map.html',{})
-            </div>
-        </div>
-        <div class="faq" id="faq">
-            <div class="faq__wrapper main-width">
-                <h2>FAQ</h2>
-                @@include('html/faq.html',{})
-            </div>
-        </div>
-        <div class="information">
-            <div class="information__wrapper main-width">
-                    <h2>Book Your Drip Now
-                        <span>Licensed nurse at your door within 2 hours — 24/7 in Dubai, Abu Dhabi and Tbilisi</span>
-                    </h2>
-                <div class="information__content">
-                    <div class="information__phone-block">
-                        <div class="information__cities">
-                            Dubai | Abu Dhabi | Tbilisi
+                    <div class="test__question">Ребенок порвал «в хлам» дорогие кроссовки, которые купили ему две недели назад</div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                                а
+                            </div>
+                            <div class="test__answer-text">
+                                Что ж, следующую брендовую вещь он будет покупать себе сам с первой зарплаты!
+                            </div>
                         </div>
-                        <div class="information__phone">
-                            <a href="https://wa.me/+1(555)0000000" target="_blank">+1 (555) 000-0000</a>
-                            <a href="https://wa.me/+1(555)0000000" target="_blank" class="information__btn">Free Whatsapp Call</a>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                                б
+                            </div>
+                            <div class="test__answer-text">
+                                Проведу воспитательную беседу, чтобы узнать, почему он так безответственно относится к вещам.
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                                в
+                            </div>
+                            <div class="test__answer-text">
+                                Это всего лишь кроссовки! Отдадим в ремонт – и дело с концом.
+                            </div>
                         </div>
                     </div>
-                    <div class="information__url">
-                        <a href="example@company.com" target="_blank">example@company.com</a>
-                    </div>
-                    <div class="information__address">123 Sample St, Sydney NSW 2000 AU</div>
-                    <div class="information__items">
-                        <div class="information__item">
-                            Marketing and Coordination Partner
-                            <div>HIDE MEDICAL CENTER LLC</div>
-                        </div>
-                        <div class="information__item">
-                            licensed by Dubai Health Authority
-                            <div><span>License NO:</span> DHA-0412029</div>
-                        </div>
-                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
                 </div>
-                <div class="information__form">
-                    @@include('html/bottom-form.html',{})
+                <div class="test__block test__block--2">
+                    <div class="test__counter">
+                        <img src="img/2-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
+                </div>
+                <div class="test__block test__block--3">
+                    <div class="test__counter">
+                        <img src="img/3-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
+                </div>
+                <div class="test__block test__block--4">
+                    <div class="test__counter">
+                        <img src="img/4-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
+                </div>
+                <div class="test__block test__block--5">
+                    <div class="test__counter">
+                        <img src="img/5-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
+                </div>
+                <div class="test__block test__block--6">
+                    <div class="test__counter">
+                        <img src="img/6-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
+                </div>
+                <div class="test__block test__block--7">
+                    <div class="test__counter">
+                        <img src="img/7-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
+                </div>
+                <div class="test__block test__block--8">
+                    <div class="test__counter">
+                        <img src="img/8-8.svg">
+                    </div>
+                    <div class="test__question"></div>
+                    <div class="test__answers">
+                        <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                         <div class="test__answer">
+                            <div class="test__answer-marker">
+                            </div>
+                            <div class="test__answer-text">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn test__btn">Далее</a>
+                    <div class="test__image test__image--1"></div>
+                    <div class="test__image test__image--2"></div>
+                    <div class="test__image test__image--3"></div>
+                    <div class="test__image test__image--4"></div>
+                    <div class="test__image test__image--5"></div>
+                    <div class="test__image test__image--6"></div>
                 </div>
             </div>
         </div>
-    </main>
-    @@include('html/footer.html',{})
-</body>
+    </div>
+    </body>
 </html>
