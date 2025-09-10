@@ -154,6 +154,7 @@ img {
     padding: 2vw 0;
     position: relative;
     width: 58vw;
+    margin: 0 auto;
 
     @media (max-width: 800px) {
       width: 88vw;
@@ -317,7 +318,7 @@ img {
         }
     }
      @media (max-width: 800px) {
-          margin-top: 30vw;
+          margin-top: 20vw;
       }
   }
 

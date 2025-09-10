@@ -143,6 +143,7 @@ img {
   padding: 2vw 0;
   position: relative;
   width: 58vw;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
   .test__blocks {
@@ -301,7 +302,7 @@ img {
 }
 @media (max-width: 800px) {
   .test__btn {
-    margin-top: 30vw;
+    margin-top: 20vw;
   }
 }
 .test__result {
