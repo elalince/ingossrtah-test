@@ -95,33 +95,12 @@ img {
   border: 0;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-h1, h2, h3 {
-  margin: 0;
-}
-
-.svg {
-  display: none;
-}
-
-.main-width {
-  width: 100%;
-  max-width: 1344px;
-  padding: 0 12px;
-  margin: 0 auto;
-}
-
 .btn {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 3vw;
   padding: 1vw 2.5vw;
-  border-radius: 3vw;
   height: 4.65vw;
   background: #00aae7;
   font-family: "IngoStem-Bold", sans-serif;
@@ -129,6 +108,11 @@ h1, h2, h3 {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+.btn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
 }
 @media (max-width: 800px) {
   .btn {
@@ -156,8 +140,8 @@ h1, h2, h3 {
   }
 }
 .test__blocks {
+  padding: 2vw 0;
   position: relative;
-  margin: 0 auto;
   width: 58vw;
 }
 @media (max-width: 800px) {
@@ -171,13 +155,8 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   gap: 1.25vw;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
   width: 100%;
-  opacity: 0;
-  visibility: hidden;
+  transition: all 0.3s ease;
 }
 .test__block--active {
   opacity: 1;
@@ -333,6 +312,9 @@ h1, h2, h3 {
   padding: 2vw 0;
   margin: 0 auto;
 }
+.test__result .test__btn {
+  margin-top: 3vw;
+}
 @media (max-width: 800px) {
   .test__result {
     width: 88vw;
@@ -433,6 +415,10 @@ h1, h2, h3 {
 }
 .test__result-image--3 {
   background-image: url("/img/result-3.svg");
+  width: 34.2vw;
+  height: 32.5vw;
+  left: 54vw;
+  top: -3vw;
 }
 @media (max-width: 800px) {
   .test__result-image {
