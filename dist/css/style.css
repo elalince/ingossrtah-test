@@ -126,6 +126,7 @@ h1, h2, h3 {
   background: #00aae7;
   font-family: "IngoStem-Bold", sans-serif;
   font-size: 1.9vw;
+  text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -330,10 +331,16 @@ h1, h2, h3 {
   flex-direction: column;
   align-items: center;
   padding: 2vw 0;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
   .test__result {
     width: 88vw;
+  }
+  .test__result .test__btn {
+    margin-top: 5vw;
+    font-size: 7vw;
+    padding: 1vw 8.5vw;
   }
 }
 .test__result-title {
@@ -399,11 +406,10 @@ h1, h2, h3 {
     font-size: 4.6vw;
     max-width: 100%;
     margin: 0 0 6vw 0;
+    gap: 6vw;
   }
 }
 .test__result-image {
-  width: 35.3vw;
-  height: 32.9vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -413,9 +419,17 @@ h1, h2, h3 {
 }
 .test__result-image--1 {
   background-image: url("/img/result-1.svg");
+  width: 35.3vw;
+  height: 32.9vw;
+  left: 54vw;
+  top: -5vw;
 }
 .test__result-image--2 {
   background-image: url("/img/result-2.svg");
+  width: 40.5vw;
+  height: 31vw;
+  left: 50vw;
+  top: -6vw;
 }
 .test__result-image--3 {
   background-image: url("/img/result-3.svg");
@@ -423,9 +437,11 @@ h1, h2, h3 {
 @media (max-width: 800px) {
   .test__result-image {
     position: relative;
-    width: 70vw;
+    width: 100%;
     height: 70vw;
-    margin: 0 auto;
+    left: auto;
+    top: auto;
+    margin: 0 auto 6vw;
   }
 }
 
